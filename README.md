@@ -1,6 +1,6 @@
 # goatstickers-api
 
-Estou fazendo uma api para um site de vendas de stickers, o meu principal objetivo é aprender sobre o mundo de Java com Quarkus, a ideia é colocar essa API para rodar com docker e Kubernets para aprendizado tmb.
+Estou fazendo uma api para um site de vendas de stickers, o meu principal objetivo é aprender sobre o mundo de Java com Quarkus, a ideia é colocar essa API para rodar em PRD com docker e Kubernets para aprendizado tmb.
 
 # To do
 
