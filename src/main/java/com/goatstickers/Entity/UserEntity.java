@@ -1,5 +1,6 @@
 package com.goatstickers.Entity;
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.goatstickers.Types.Email;
 import io.quarkus.hibernate.orm.panache.PanacheEntityBase;
 import jakarta.persistence.*;
 import org.hibernate.annotations.GenericGenerator;
@@ -20,8 +21,10 @@ public class UserEntity extends PanacheEntityBase {
     @Column(name = "Name", nullable = false, length = 100)
     private String Name;
 
-    @Column(name = "Email", nullable = false, length = 150, unique = true)
-    private String Email;
+    @Embedded
+    @AttributeOverride(name = "value", column = @Column(name = "Email"))
+    /*@Column(name = "Email", nullable = false, length = 150, unique = true)*/
+    private Email Email;
 
     @Column(name = "Password", nullable = false)
     @JsonIgnore
@@ -35,7 +38,7 @@ public class UserEntity extends PanacheEntityBase {
 
     public UserEntity(){}
 
-    public UserEntity(String name, String email, String password, String plainPassword){
+    public UserEntity(String name, Email email, String password, String plainPassword){
         this.Name = name;
         this.Email = email;
         this.Password = password;
@@ -59,11 +62,11 @@ public class UserEntity extends PanacheEntityBase {
         this.Name = name;
     }
 
-    public String getEmail(){
+    public Email getEmail(){
         return Email;
     }
 
-    public void setEmail(String email){
+    public void setEmail(Email email){
         this.Email = email;
     }
 
