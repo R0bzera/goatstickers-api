@@ -6,6 +6,8 @@ Estou fazendo uma api para um site de vendas de stickers, o meu principal objeti
 
 fazer CRUD User com banco postgres✔️
 
+padronizar mensagens de erro✔️
+
 fazer autenticação User com JWT ❌
 
 fazer CRUD Products ❌
