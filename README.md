@@ -5,10 +5,15 @@ Estou fazendo uma api para um site de vendas de stickers, o meu principal objeti
 # To do
 
 fazer CRUD User com banco postgres✔️
+
 fazer autenticação User com JWT ❌
+
 fazer CRUD Products ❌
+
 fazer mensageria para envio de E-mails ❌
+
 vincular com meio de pagamentos ❌
+
 Etc...
 
 Sempre que possível irei atualizar esse readme com os itens que eu for finalizando ou adicionando.
