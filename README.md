@@ -8,7 +8,7 @@ fazer CRUD User com banco postgres✔️
 
 padronizar mensagens de erro✔️
 
-fazer autenticação User com JWT ❌
+fazer autenticação User com JWT✔️
 
 fazer CRUD Products ❌
 

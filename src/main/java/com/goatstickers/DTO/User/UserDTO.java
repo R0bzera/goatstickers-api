@@ -1,6 +1,4 @@
-package com.goatstickers.DTO;
-import java.time.LocalDateTime;
-import java.util.UUID;
+package com.goatstickers.DTO.User;
 
 public class UserDTO {
 

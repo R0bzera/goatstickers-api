@@ -1,7 +1,8 @@
 package com.goatstickers.Mapper;
 
+import com.goatstickers.DTO.User.LoginUserDTO;
 import com.goatstickers.Entity.UserEntity;
-import com.goatstickers.DTO.UserDTO;
+import com.goatstickers.DTO.User.UserDTO;
 import com.goatstickers.Types.Email;
 
 public class UserMapper {
@@ -19,5 +20,12 @@ public class UserMapper {
         entity.setEmail(new Email(dto.getEmail()));
         entity.setPassword(dto.getPassword());
         return entity;
+    }
+
+    public static LoginUserDTO toLoginDTO(UserEntity user) {
+        LoginUserDTO dto = new LoginUserDTO();
+        dto.setEmail(user.getEmail().getValue());
+        dto.setName(user.getName());
+        return dto;
     }
 }
