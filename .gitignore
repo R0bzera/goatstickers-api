@@ -1,45 +1,66 @@
-#Maven
+# ========== BUILD ==========
 target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-release.properties
-.flattened-pom.xml
+build/
+out/
+
+# ========== IDEs ==========
+# IntelliJ
+.idea/
+*.iml
+*.iws
+
+# VS Code
+.vscode/
 
 # Eclipse
 .project
 .classpath
 .settings/
-bin/
-
-# IntelliJ
-.idea
-*.ipr
-*.iml
-*.iws
 
 # NetBeans
-nb-configuration.xml
+/nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
 
-# Visual Studio Code
-.vscode
-.factorypath
+# ========== ENV FILES & SECRETS ==========
+*.pem
+*.jks
+*.keystore
+*.env
+.env.local
+.env.*.local
+!.env.example
 
-# OSX
+# JWT Keys (Quarkus)
+src/main/resources/META-INF/resources/privateKey.pem
+src/main/resources/META-INF/resources/publicKey.pem
+
+# Application properties with secrets
+src/main/resources/application.properties
+src/main/resources/application.yml
+
+# ========== OS FILES ==========
+# macOS
 .DS_Store
 
-# Vim
-*.swp
-*.swo
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
 
-# patch
-*.orig
-*.rej
+# Linux
+*~
 
-# Local environment
-.env
+# ========== LOGS ==========
+*.log
 
-# Plugin directory
-/.quarkus/cli/plugins/
-# TLS Certificates
-.certs/
+# ========== MAVEN ==========
+.mvn/
+!**/mvnw
+!**/mvnw.cmd
+
+# ========== TEST OUTPUT ==========
+/test-output/
