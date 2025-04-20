@@ -10,7 +10,7 @@ padronizar mensagens de erro✔️
 
 fazer autenticação User com JWT✔️
 
-fazer CRUD Products ❌
+fazer CRUD Products✔️
 
 fazer mensageria para envio de E-mails ❌
 
