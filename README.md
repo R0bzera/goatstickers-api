@@ -4,7 +4,11 @@ Estou fazendo uma api para um site de vendas de stickers, o meu principal objeti
 
 # To do
 
-fazer CRUD User com banco postgres✔️
+configurar banco postgres✔️
+
+documentação utilizando Swagger✔️
+
+fazer CRUD User✔️
 
 padronizar mensagens de erro✔️
 
