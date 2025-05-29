@@ -1,26 +1,25 @@
-package com.goatstickers.Controller;
+package com.goatstickers.Controller.User;
 
 import com.goatstickers.DTO.User.LoginResponseDTO;
 import com.goatstickers.DTO.User.LoginUserDTO;
 import com.goatstickers.DTO.User.UserDTO;
 import com.goatstickers.Exception.ApiException;
 import com.goatstickers.Service.UserService;
-import io.smallrye.jwt.build.Jwt;
 import jakarta.annotation.security.RolesAllowed;
 import jakarta.inject.Inject;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
+import org.eclipse.microprofile.openapi.annotations.tags.Tag;
 
-import java.time.Duration;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 import java.util.UUID;
 
 @Path("/users")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
+@Tag(name = "User")
 public class UserController {
 
     @Inject

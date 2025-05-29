@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Git\\goatstickers-api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Git\\goatstickers-api\\src\\main\\java\\com\\goatstickers\\Controller\\Product\\ProductController.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\main\\java\\com\\goatstickers\\Controller\\Product\\ProductController.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Git\\goatstickers-api\\src\\main\\java\\com\\goatstickers\\Entity\\ProductEntity.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\main\\java\\com\\goatstickers\\Entity\\ProductEntity.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Git\\goatstickers-api\\pom.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pom.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.java",
+              "DocumentMoniker": "C:\\Git\\goatstickers-api\\src\\main\\java\\com\\goatstickers\\Controller\\Product\\ProductController.java",
+              "RelativeDocumentMoniker": "src\\main\\java\\com\\goatstickers\\Controller\\Product\\ProductController.java",
+              "ToolTip": "C:\\Git\\goatstickers-api\\src\\main\\java\\com\\goatstickers\\Controller\\Product\\ProductController.java",
+              "RelativeToolTip": "src\\main\\java\\com\\goatstickers\\Controller\\Product\\ProductController.java",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAB4AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001630|",
+              "WhenOpened": "2025-05-29T23:16:18.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "pom.xml",
+              "DocumentMoniker": "C:\\Git\\goatstickers-api\\pom.xml",
+              "RelativeDocumentMoniker": "pom.xml",
+              "ToolTip": "C:\\Git\\goatstickers-api\\pom.xml",
+              "RelativeToolTip": "pom.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-05-29T23:14:10.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductEntity.java",
+              "DocumentMoniker": "C:\\Git\\goatstickers-api\\src\\main\\java\\com\\goatstickers\\Entity\\ProductEntity.java",
+              "RelativeDocumentMoniker": "src\\main\\java\\com\\goatstickers\\Entity\\ProductEntity.java",
+              "ToolTip": "C:\\Git\\goatstickers-api\\src\\main\\java\\com\\goatstickers\\Entity\\ProductEntity.java",
+              "RelativeToolTip": "src\\main\\java\\com\\goatstickers\\Entity\\ProductEntity.java",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAADsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001630|",
+              "WhenOpened": "2025-05-29T23:12:37.211Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

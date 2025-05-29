@@ -3,9 +3,6 @@ package com.goatstickers.Types;
 import jakarta.persistence.Embeddable;
 import jakarta.validation.constraints.NotBlank;
 
-import java.util.Locale;
-
-
 @Embeddable
 public class Email {
 

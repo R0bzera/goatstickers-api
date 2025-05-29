@@ -4,7 +4,6 @@ import com.goatstickers.DTO.Product.CreateProductDTO;
 import com.goatstickers.DTO.Product.ProductDTO;
 import com.goatstickers.DTO.Product.UpdateProductDTO;
 import com.goatstickers.Service.Product.ProductService;
-import jakarta.annotation.security.RolesAllowed;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 import jakarta.ws.rs.*;
@@ -17,7 +16,7 @@ import java.util.UUID;
 @Path("/products")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
-@Tag(name = "Produtos", description = "CRUD de produtos da loja")
+@Tag(name = "Product")
 @ApplicationScoped
 public class ProductController {
 
@@ -25,7 +24,8 @@ public class ProductController {
     ProductService productService;
 
     @POST
-    //@RolesAllowed("admin") // Apenas administradores podem criar
+    @Path("/create")
+    //@RolesAllowed("admin")
     public Response createProduct(CreateProductDTO dto) {
         ProductDTO product = productService.createProduct(dto);
         return Response.status(Response.Status.CREATED).entity(product).build();
